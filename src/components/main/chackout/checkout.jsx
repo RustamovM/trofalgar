@@ -12,7 +12,7 @@ function Checkout() {
         </h3>
         <div className="w-14 h-0.5 bg-black mx-auto mb-16 rounded-md"></div>
         <div className=" flex items-center justify-center gap-10 mb-16">
-          <div className="box w-[350px] h-[512px] text-center rounded-2xl">
+          <div className="box_card w-[350px] h-[512px] text-center rounded-2xl hover:cursor-pointer hover:scale-105 duration-700	transition-all">
             <img src={img} alt="" width={369} height={246} />
             <div className="ps-3 pe-4">
               <h4 className="font-bold text-xl pt-5">
@@ -30,7 +30,7 @@ function Checkout() {
               </div>
             </div>
           </div>
-          <div className="box w-[350px] h-[512px] text-center rounded-2xl">
+          <div className="box_card w-[350px] h-[512px] text-center rounded-2xl hover:cursor-pointer hover:scale-110 duration-700	transition-all">
             <img src={img1} alt="" width={369} height={246} />
             <div className="ps-3 pe-3">
               <h4 className="font-bold text-xl pt-5">
@@ -48,7 +48,7 @@ function Checkout() {
               </div>
             </div>
           </div>
-          <div className="box w-[350px] h-[512px] text-center rounded-2xl">
+          <div className="box_card w-[350px] h-[512px] text-center rounded-2xl hover:cursor-pointer hover:scale-110 duration-700	transition-all">
             <img src={img2} alt="" width={369} height={246} />
             <div className="ps-3 pe-4">
               <h4 className="font-bold text-xl pt-5">

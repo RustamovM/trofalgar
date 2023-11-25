@@ -49,11 +49,11 @@ function Servise() {
           doctors you can consult with us which type of service is suitable for
           your health
         </p>
-        <div className="box pt-[80px] grid grid-cols-3 gap-16 ms-10 ">
+        <div className="box mt-[80px] grid grid-cols-3 gap-16 ms-10 ">
           {mockServises.map((el, index) => (
             <div
               key={index}
-              className="wrap_box w-[350px] h-[354px] ps-10 py-10 hover:cursor-pointer"
+              className="wrap_box w-[350px] h-[354px] ps-10 py-10 hover:cursor-pointer hover:scale-125 duration-700	transition-all"
             >
               <img src={el.img} width={91} height={90} alt="lupa" />
               <h4 className="font-bold text-lg mt-6 w-[160px] h-[56px]">
